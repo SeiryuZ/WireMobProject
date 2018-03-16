@@ -1,4 +1,4 @@
-(images/Asian Logo Games.png)
+![Asian Games Logo](images/Asian Logo Games.png "Asian Games")
 # 2018 Asian Games Directory app
 ___
 
@@ -10,8 +10,23 @@ While the event will begin in a matter of days, many people still do not know in
 ## Proposed Solution 
 A mobile app that allows users to know all the details about the Asian Games. The information provided includes details of the competition, details of the venue, details of the participants, and users can also watch live matches as well as social chat features.
 
+#### UI Design Illustration
+
+Loading Screen
+![loading screen](images/Loading Screen.png "Loading")
+
+Login Screen
+![login screen](images/Login Activity.png "Login")
+
+Main Page
+![main page1](images/Main Activity - 1.png "main1")
+![main page2](images/Main Activity - 2.png "main2")
+
+Live Stream Page
+![live stream page](images/Live Stream Activity.png)
+
 #### Application Skeleton MockUp
-(images/MOCK UP.PNG)
+![application mockip](images/MOCK UP.PNG "mockup")
 
 ## Core features :
 
