@@ -1,4 +1,4 @@
-# 2018 Asian Games Directory
+# 2018 Asian Games Directory app
 ___
 
 ## Problem
@@ -17,5 +17,6 @@ ___
 
 
 ## Work division
+
 
 ## Weekly plan
