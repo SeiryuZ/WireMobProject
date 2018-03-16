@@ -67,7 +67,7 @@ according to the authors, the UI built in the application is very minimalist, so
     Week 5 - Start create skeleton activities
     Week 6 - Design User Interface for each activities
     Week 7 - Handle information page
-    Week 8 - Handle database (Saving problems to local database, adding new problems)
+    Week 8 - Handle database (Saving informations to local database, adding new problems)
     Week 9 - Camera, Location, Streaming API
     Week 10 - Handle sensitive data encryption
     Week 11 - User Experience tweak
