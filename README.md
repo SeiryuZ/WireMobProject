@@ -30,36 +30,36 @@ Live Stream Page
 
 ## Core features :
 
-* Simple Login ( Google and Facebook Authentication)
-* Main Page contains :
-** Information Buttons (Game, Venue, Gallery, Participant, etc.)
-** Event Buttons (Live Streaming video, Live chat)
-** Dynamic Event Schedule
-** News & Article 
+- Simple Login ( Google and Facebook Authentication)
+- Main Page contains :
+ - Information Buttons (Game, Venue, Gallery, Participant, etc.)
+ - Event Buttons (Live Streaming video, Live chat)
+ - Dynamic Event Schedule
+ - News & Article 
 
 ## External service :
 In order to make this application work there are some external services that the application will need to handle:
-* Proper Management in Database server since it store many of data/information to handle.
-* Web server for processing and sending dynamic data. 
-* Google server for location tagging (for Venue List)
+- Proper Management in Database server since it store many of data/information to handle.
+- Web server for processing and sending dynamic data. 
+- Google server for location tagging (for Venue List)
 
 ## Related work
 in modern era, almost in every major sporting event, the organizers always provide information applications for fans and netizens.
 As the sporting event that has been completed is Winter Olympic Pyeongchang 2018.
-* PyeongChang 2018 Official App: https://play.google.com/store/apps/details?id=com.pyeongchang2018.mobileguide&hl=en
+- PyeongChang 2018 Official App: https://play.google.com/store/apps/details?id=com.pyeongchang2018.mobileguide&hl=en
 
 This app is pretty good it just takes some more development in terms of multimedia and design, according to the author, is too complicated.
 
 And also in fact there are already 2018 Asian Games applications in the playstore but this application is made not by the committee, which is independently built.
-* Asian Games 2018: https://play.google.com/store/apps/details?id=com.asiangame.android.miwok
+- Asian Games 2018: https://play.google.com/store/apps/details?id=com.asiangame.android.miwok
 
 according to the authors, the UI built in the application is very minimalist, so it will not attract the attention of users to wear them.
 
 ## Work division
-* Dezza Rizqi
+- Dezza Rizqi
    Will work on the front-end developing (app design)
 
-* Kenneth
+- Kenneth
    Will work on the back-end developing (database, functions)
 
 ## Weekly plan
