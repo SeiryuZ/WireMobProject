@@ -1,4 +1,4 @@
-![Asian Games Logo](images/Asian Logo Games.png "Asian Games")
+![Asian Games Logo](https://github.com/ajedkrap/WireMobProject/blob/master/images/Asian%20Games%20Logo.png)
 # 2018 Asian Games Directory app
 ___
 
@@ -13,20 +13,20 @@ A mobile app that allows users to know all the details about the Asian Games. Th
 #### UI Design Illustration
 
 Loading Screen
-![loading screen](images/Loading Screen.png "Loading")
+![loading screen](https://github.com/ajedkrap/WireMobProject/blob/master/images/Loading%20Screen.png)
 
 Login Screen
-![login screen](images/Login Activity.png "Login")
+![login screen](https://github.com/ajedkrap/WireMobProject/blob/master/images/Login%20Activity.png)
 
 Main Page
-![main page1](images/Main Activity - 1.png "main1")
-![main page2](images/Main Activity - 2.png "main2")
+![main page1](https://github.com/ajedkrap/WireMobProject/blob/master/images/Main%20Activity%20-%201.png)
+![main page2](https://github.com/ajedkrap/WireMobProject/blob/master/images/Main%20Activity%20-%202.png)
 
 Live Stream Page
-![live stream page](images/Live Stream Activity.png)
+![live stream page](https://github.com/ajedkrap/WireMobProject/blob/master/images/Live%20Stream%20Activity.png)
 
 #### Application Skeleton MockUp
-![application mockip](images/MOCK UP.PNG "mockup")
+![application mockup](https://github.com/ajedkrap/WireMobProject/blob/master/images/MOCK%20UP.PNG)
 
 ## Core features :
 
