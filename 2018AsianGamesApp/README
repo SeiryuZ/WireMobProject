@@ -1,0 +1,6 @@
+Open 2018AsianGamesApp (not the WireMobProject-master).
+
+The Application planned to have much activity yet this project only have two, which are SplashActivity and LoginActivity,
+
+
+In LoginActivity meant to have an intent transition to MenuActivity. but due to IDE error, the project discontinue until further update for the error solved.
