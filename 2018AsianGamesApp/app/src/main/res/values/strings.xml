@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">2018 Asian Games App</string>
+    <string name="facebook_application_id" translatable="false"></string>
 </resources>
