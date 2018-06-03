@@ -90,6 +90,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="84dp"
         android:layout_marginTop="8dp"
+        android:clickable="true"
         android:background="@drawable/googlelogin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -106,6 +107,7 @@
         android:layout_marginEnd="88dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:clickable="true"
         android:background="@drawable/fblogin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -113,5 +115,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginTextView"
         app:layout_constraintVertical_bias="0.473" />
+
+
 
 </android.support.constraint.ConstraintLayout>
