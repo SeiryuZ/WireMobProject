@@ -15,6 +15,26 @@
       },
       "oauth_client": [
         {
+          "client_id": "587086858588-07b943an6oblg2n8su3vn7qonvike6ll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mrtbkwjn.a2018asiangamesapp",
+            "certificate_hash": "a8dc2d0e8e2c5dad00f5548a625b2e21badd2e02"
+          }
+        },
+        {
+          "client_id": "587086858588-i7msfaf0kie1d9j728qnjmv6qooiufd6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mrtbkwjn.a2018asiangamesapp",
+            "certificate_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+          }
+        },
+        {
+          "client_id": "587086858588-e5fi3lp1ni0008k6nvdpdvihnihel1vk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
           "client_id": "587086858588-e5fi3lp1ni0008k6nvdpdvihnihel1vk.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +49,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587086858588-e5fi3lp1ni0008k6nvdpdvihnihel1vk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

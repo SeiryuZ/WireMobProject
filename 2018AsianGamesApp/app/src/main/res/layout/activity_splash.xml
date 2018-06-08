@@ -8,7 +8,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/aslogo"
         android:layout_width="291dp"
         android:layout_height="135dp"
         android:layout_marginBottom="8dp"
