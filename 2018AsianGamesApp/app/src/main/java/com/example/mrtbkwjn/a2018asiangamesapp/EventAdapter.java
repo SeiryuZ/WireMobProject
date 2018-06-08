@@ -11,41 +11,38 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 
+public class EventAdapter extends RecyclerView.Adapter<EventAdapter.EventViewHolder> {
 
-public class EventAdapter extends RecyclerView.Adapter<EventAdapter.EventViewHolder>{
+    ArrayList<String> eventList;
 
-        ArrayList<String> eventList;
+    public static class EventViewHolder extends RecyclerView.ViewHolder {
 
-        public static class EventViewHolder extends RecyclerView.ViewHolder{
-
-            TextView eventIdText;
-            TextView eventDetailText;
-            TextView eventDate;
-
+        TextView eventIdText;
+        TextView eventDetailText;
+        TextView eventDate;
 
 
+        public EventViewHolder(View itemView) {
+            super(itemView);
 
-            public EventViewHolder(View itemView){
-                super(itemView);
-
-                eventIdText = itemView.findViewById(R.id.sportId);
-                eventDetailText = itemView.findViewById(R.id.sportDetail);
-                eventDate = itemView.findViewById(R.id.sportTime);
-            }
+            eventIdText = itemView.findViewById(R.id.sportId);
+            eventDetailText = itemView.findViewById(R.id.sportDetail);
+            eventDate = itemView.findViewById(R.id.sportTime);
         }
+    }
 
-        public EventAdapter(ArrayList<String> eventList){
-            this.eventList = eventList;
-        }
+    public EventAdapter(ArrayList<String> eventList) {
+        this.eventList = eventList;
+    }
 
     @NonNull
     @Override
     public EventViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-            View row = LayoutInflater.from(parent.getContext())
-                    .inflate(R.layout.choose_event_row,parent, false);
-            EventViewHolder viewHolder = new EventViewHolder(row);
-            return viewHolder;
+        View row = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.choose_event_row, parent, false);
+        EventViewHolder viewHolder = new EventViewHolder(row);
+        return viewHolder;
     }
 
     @Override

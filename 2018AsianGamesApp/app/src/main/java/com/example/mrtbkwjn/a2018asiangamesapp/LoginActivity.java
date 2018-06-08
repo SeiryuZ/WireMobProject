@@ -67,7 +67,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                if(firebaseAuth.getCurrentUser() != null){
+                if (firebaseAuth.getCurrentUser() != null) {
 
                     startActivity(new Intent(LoginActivity.this, MenuActivity.class));
 
@@ -89,7 +89,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         Toast.makeText(LoginActivity.this, "Something wrong with the connection", Toast.LENGTH_LONG).show();
                     }
                 })
-                .addApi(Auth.GOOGLE_SIGN_IN_API,gso)
+                .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
                 .build();
 
         googleButton.setOnClickListener(new View.OnClickListener() {
@@ -135,32 +135,29 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
 
-
-
     @Override
-    protected void onStart(){
+    protected void onStart() {
         super.onStart();
-        
+
         mAuth.addAuthStateListener(mAuthListener);
 
 
     }
 
-    private void signIn(){
+    private void signIn() {
         Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
         startActivityForResult(signInIntent, RC_SIGN_IN);
         googleButton.getBackground().setAlpha(100);
     }
 
 
-
-    public void onActivityResult(int requestCode, int resultCode, Intent data ){
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, requestCode, data);
 
         //[GOOGLE Result]
-        if (requestCode == RC_SIGN_IN){
+        if (requestCode == RC_SIGN_IN) {
             GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
-            if(result.isSuccess()){
+            if (result.isSuccess()) {
                 GoogleSignInAccount account = result.getSignInAccount();
                 firebaseAuthWithGoogle(account);
             }
@@ -178,7 +175,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         Log.d(TAG, "signInWithCredential:onComplete:" + task.isSuccessful());
 
-                        if(!task.isSuccessful()){
+                        if (!task.isSuccessful()) {
                             Log.w(TAG, "signInWithCredential", task.getException());
                             Toast.makeText(LoginActivity.this, "Authentication Failed",
                                     Toast.LENGTH_LONG).show();
@@ -197,7 +194,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         Log.d(TAG, "signInWithCredential:onComplete:" + task.isSuccessful());
 
-                        if(!task.isSuccessful()){
+                        if (!task.isSuccessful()) {
                             Log.w(TAG, "signInWithCredential", task.getException());
                             Toast.makeText(LoginActivity.this, "Authentication Failed",
                                     Toast.LENGTH_LONG).show();
@@ -209,19 +206,18 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
     @Override
-    public void onClick(View view){
+    public void onClick(View view) {
 
-        Intent menuIntent = new Intent (LoginActivity.this, MenuActivity.class);
+        Intent menuIntent = new Intent(LoginActivity.this, MenuActivity.class);
         startActivity(menuIntent);
 
     }
 
-    public void onBackPressed(){
-        if (doubleTap){
+    public void onBackPressed() {
+        if (doubleTap) {
             super.onBackPressed();
-        }
-        else{
-            Toast.makeText(this,"Press BACK again to exit app!", Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(this, "Press BACK again to exit app!", Toast.LENGTH_SHORT).show();
             doubleTap = true;
             Handler handler = new Handler();
             handler.postDelayed(new Runnable() {

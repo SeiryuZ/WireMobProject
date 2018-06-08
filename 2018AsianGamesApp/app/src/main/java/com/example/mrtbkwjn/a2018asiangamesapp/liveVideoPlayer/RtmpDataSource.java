@@ -43,8 +43,7 @@ public class RtmpDataSource implements DataSource {
         try {
             rtmpClient.open(uriString, false);
             uri = dataSpec.uri;
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
             return 0;
         }

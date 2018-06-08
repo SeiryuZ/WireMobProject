@@ -48,11 +48,10 @@
             android:name=".MenuActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".StreamingActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:name=".directory.GameActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
-            android:name=".directory.MascotActivity"
-            android:label="@string/title_activity_mascot"
+            android:name=".StreamingActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".directory.VenueActivity"
@@ -63,7 +62,10 @@
         <activity
             android:name=".directory.NewsActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".directory.GameActivity"></activity>
+        <activity
+            android:name=".directory.MascotActivity"
+            android:label="@string/title_activity_mascot" />
+
     </application>
 
 </manifest>

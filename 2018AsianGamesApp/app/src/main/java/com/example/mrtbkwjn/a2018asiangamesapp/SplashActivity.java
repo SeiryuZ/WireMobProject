@@ -20,24 +20,24 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
 
         headerLogo = (ImageView) findViewById(R.id.aslogo);
-        fromTop = AnimationUtils.loadAnimation(this,R.anim.fromtop);
+        fromTop = AnimationUtils.loadAnimation(this, R.anim.fromtop);
         headerLogo.setAnimation(fromTop);
 
-       new Handler().postDelayed(new Runnable() {
-           @Override
-           public void run() {
-               Intent loginIntent = new Intent(SplashActivity.this, LoginActivity.class);
-               startActivity(loginIntent);
-               finish();
-           }
-       } ,6000);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent loginIntent = new Intent(SplashActivity.this, LoginActivity.class);
+                startActivity(loginIntent);
+                finish();
+            }
+        }, 6000);
     }
 
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.i("main","ONRESUME");
+        Log.i("main", "ONRESUME");
     }
 
     @Override
@@ -55,6 +55,6 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.i("main","ONDESTROY");
+        Log.i("main", "ONDESTROY");
     }
 }
